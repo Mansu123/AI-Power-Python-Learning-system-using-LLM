@@ -22,7 +22,8 @@ Interactive Q&A: Allows students to get help on specific topics
 Persistent Storage: All data is accessible for ongoing review
 
 ## Main Interface Sections & Buttons
-1. Day Navigation Section
+
+# Day Navigation Section
 
 Advance to Next Day Button: Calls advance_to_next_day() to progress from Day 1 to Day 2, and from Day 2 to Day 3
 Current Day Display: Shows which day's content (1-3) the student is currently viewing
@@ -30,7 +31,7 @@ Progress Indicator: Visualizes how far along the student is in the curriculum
 
 
 
-# 2. Content Generation Section
+# 1. Content Generation Section
 
 Generate Content Button: Calls generate_day_content() to create and display the day's learning materials
 Content Display Area: Shows the Markdown-formatted learning module with:
@@ -45,7 +46,7 @@ Practice exercises
 
 
 
-# 3. Exam Section
+# 2. Exam Section
 
 Start Exam Button: Calls start_exam() to begin the one-hour timed assessment
 Timer Display: Shows time remaining in the exam (counting down from 1 hour)
@@ -59,7 +60,7 @@ Submit Exam Button: Calls submit_exam(answers_text) to grade the completed exam
 
 ![image](https://github.com/user-attachments/assets/4f61472e-5544-4893-8529-cc7887c27331)
 
-# 4. Feedback Section
+# 3. Feedback Section
 
 Results Display: Shows the graded exam with:
 
@@ -72,7 +73,7 @@ Improvement Suggestions: Displays personalized learning recommendations
 
 ![image](https://github.com/user-attachments/assets/0515b7ad-4a51-4db7-90b3-68853375eb35)
  
- # 5.Q&A Sandbox Section
+ # 4.Q&A Sandbox Section
 
 Question Input: Text area where students can type Python-related questions
 Ask Question Button: Calls answer_sandbox_question(question) to get AI assistance
@@ -80,7 +81,7 @@ Answer Display: Shows AI responses with explanations and code examples
 Chat History: Displays previous questions and answers for reference
 ![image](https://github.com/user-attachments/assets/2047e43e-101b-422e-9002-616679d9f010)
 
-# 6.Progress Tracking Section
+# 5.Progress Tracking Section
 
 View Progress Button: Calls get_learning_progress() to show overall learning statistics
 Progress Report: Displays:
