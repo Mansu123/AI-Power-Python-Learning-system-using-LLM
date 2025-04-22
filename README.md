@@ -28,7 +28,7 @@ Advance to Next Day Button: Calls advance_to_next_day() to progress from Day 1 t
 Current Day Display: Shows which day's content (1-3) the student is currently viewing
 Progress Indicator: Visualizes how far along the student is in the curriculum
 
-![image](https://github.com/user-attachments/assets/02b9a134-71dc-4acc-b47c-d0eb5e844fd2)
+
 
 # 2. Content Generation Section
 
@@ -40,8 +40,9 @@ Introduction
 Multiple teaching sections
 Code examples
 Practice exercises
+![image](https://github.com/user-attachments/assets/02b9a134-71dc-4acc-b47c-d0eb5e844fd2)
 
-![image](https://github.com/user-attachments/assets/4f61472e-5544-4893-8529-cc7887c27331)
+
 
 
 # 3. Exam Section
@@ -55,6 +56,8 @@ Multiple choice options where applicable
 Text entry areas for answers
 
 Submit Exam Button: Calls submit_exam(answers_text) to grade the completed exam
+
+![image](https://github.com/user-attachments/assets/4f61472e-5544-4893-8529-cc7887c27331)
 
 # 4. Feedback Section
 
