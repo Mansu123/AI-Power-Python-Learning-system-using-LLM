@@ -1,9 +1,14 @@
 # AI-Power-Python-Learning-system-using-Langchain
+This is the main app link: https://huggingface.co/spaces/Mansuba/AIpythonLearning2
+This app was build in huggingface space using Gradio framework.
+For running this app you need groq API key which you will get from here link:https://console.groq.com/keys
+
+
 ![image](https://github.com/user-attachments/assets/502da000-9aea-4128-b62f-a40911d86afd)
 
 This system creates an adaptive learning experience for Python programming across a three-day curriculum. It utilizes the Groq LLM API (with LangChain integration) to dynamically generate content, assessments, and personalized feedback based on student performance.
-Core Components
 
+## Core Components
 LLMService: Handles all AI interactions using the Groq LLM API, with fallbacks to direct API calls if necessary.
 ContentGenerator: Manages the creation and storage of learning modules, exam questions, and student responses.
 LearningSystem: Orchestrates the entire learning experience, including day progression, exam timing, and progress tracking.
@@ -24,7 +29,7 @@ Advance to Next Day Button: Calls advance_to_next_day() to progress from Day 1 t
 Current Day Display: Shows which day's content (1-3) the student is currently viewing
 Progress Indicator: Visualizes how far along the student is in the curriculum
 
-2. Content Module Section
+# 2. Content Generation Section
 
 Generate Content Button: Calls generate_day_content() to create and display the day's learning materials
 Content Display Area: Shows the Markdown-formatted learning module with:
@@ -38,7 +43,7 @@ Practice exercises
 ![image](https://github.com/user-attachments/assets/4f61472e-5544-4893-8529-cc7887c27331)
 
 
-3. Exam Section
+# 3. Exam Section
 
 Start Exam Button: Calls start_exam() to begin the one-hour timed assessment
 Timer Display: Shows time remaining in the exam (counting down from 1 hour)
@@ -50,7 +55,7 @@ Text entry areas for answers
 
 Submit Exam Button: Calls submit_exam(answers_text) to grade the completed exam
 
-4. Feedback Section
+# 4. Feedback Section
 
 Results Display: Shows the graded exam with:
 
@@ -62,7 +67,8 @@ Correct solutions for missed questions
 Improvement Suggestions: Displays personalized learning recommendations
 
 ![image](https://github.com/user-attachments/assets/0515b7ad-4a51-4db7-90b3-68853375eb35)
- Q&A Sandbox Section
+ 
+ # 5.Q&A Sandbox Section
 
 Question Input: Text area where students can type Python-related questions
 Ask Question Button: Calls answer_sandbox_question(question) to get AI assistance
@@ -70,7 +76,7 @@ Answer Display: Shows AI responses with explanations and code examples
 Chat History: Displays previous questions and answers for reference
 ![image](https://github.com/user-attachments/assets/2047e43e-101b-422e-9002-616679d9f010)
 
-Progress Tracking Section
+# 6.Progress Tracking Section
 
 View Progress Button: Calls get_learning_progress() to show overall learning statistics
 Progress Report: Displays:
