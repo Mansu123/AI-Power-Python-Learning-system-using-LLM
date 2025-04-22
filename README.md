@@ -14,8 +14,8 @@ LearningSystem: Orchestrates the entire learning experience, including day progr
 
 ## Key Features
 
-Adaptive Content: Questions adapt based on previous mistakes
-Timed Exams: Enforces 1-hour time limits for realistic assessment
+#### Adaptive Content: Questions adapt based on previous mistakes
+#Timed Exams: Enforces 1-hour time limits for realistic assessment
 Detailed Feedback: Comprehensive explanations for correct/incorrect answers
 Learning Progress: Tracks overall statistics and day-by-day improvement
 Interactive Q&A: Allows students to get help on specific topics
