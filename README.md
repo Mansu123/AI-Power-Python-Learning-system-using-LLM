@@ -4,7 +4,6 @@ This app was built in Hugging Face Space using the Gradio framework.
 ### To run this app, you need a Groq API key, which you can get from here:https://console.groq.com/keys
 
 
-![image](https://github.com/user-attachments/assets/502da000-9aea-4128-b62f-a40911d86afd)
 
 This system creates an adaptive learning experience for Python programming across a three-day curriculum. It utilizes the Groq LLM API (with LangChain integration) to dynamically generate content, assessments, and personalized feedback based on student performance.
 
@@ -28,6 +27,8 @@ Persistent Storage: All data is accessible for ongoing review
 Advance to Next Day Button: Calls advance_to_next_day() to progress from Day 1 to Day 2, and from Day 2 to Day 3
 Current Day Display: Shows which day's content (1-3) the student is currently viewing
 Progress Indicator: Visualizes how far along the student is in the curriculum
+
+![image](https://github.com/user-attachments/assets/02b9a134-71dc-4acc-b47c-d0eb5e844fd2)
 
 # 2. Content Generation Section
 
