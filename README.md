@@ -8,7 +8,7 @@ LLMService: Handles all AI interactions using the Groq LLM API, with fallbacks t
 ContentGenerator: Manages the creation and storage of learning modules, exam questions, and student responses.
 LearningSystem: Orchestrates the entire learning experience, including day progression, exam timing, and progress tracking.
 
-Key Features
+## Key Features
 
 Adaptive Content: Questions adapt based on previous mistakes
 Timed Exams: Enforces 1-hour time limits for realistic assessment
@@ -17,7 +17,7 @@ Learning Progress: Tracks overall statistics and day-by-day improvement
 Interactive Q&A: Allows students to get help on specific topics
 Persistent Storage: All data is accessible for ongoing review
 
-Main Interface Sections & Buttons
+## Main Interface Sections & Buttons
 1. Day Navigation Section
 
 Advance to Next Day Button: Calls advance_to_next_day() to progress from Day 1 to Day 2, and from Day 2 to Day 3
