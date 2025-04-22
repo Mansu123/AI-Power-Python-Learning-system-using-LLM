@@ -70,8 +70,9 @@ Correct/incorrect indicators
 Explanations for each question
 Correct solutions for missed questions
 Improvement Suggestions: Displays personalized learning recommendations
+![image](https://github.com/user-attachments/assets/b478474a-5f05-409f-bb3f-b7084a97d3a1)
 
-![image](https://github.com/user-attachments/assets/0515b7ad-4a51-4db7-90b3-68853375eb35)
+
  
  # 4.Q&A Sandbox Section
 
@@ -79,8 +80,8 @@ Question Input: Text area where students can type Python-related questions
 Ask Question Button: Calls answer_sandbox_question(question) to get AI assistance
 Answer Display: Shows AI responses with explanations and code examples
 Chat History: Displays previous questions and answers for reference
-![image](https://github.com/user-attachments/assets/2047e43e-101b-422e-9002-616679d9f010)
 
+![image](https://github.com/user-attachments/assets/0515b7ad-4a51-4db7-90b3-68853375eb35)
 # 5.Progress Tracking Section
 
 View Progress Button: Calls get_learning_progress() to show overall learning statistics
@@ -91,6 +92,9 @@ Day-by-day progress
 Question type performance breakdown
 Areas needing improvement
 Adaptive learning indicators (showing reinforced topics)
+
+![image](https://github.com/user-attachments/assets/871735ed-babc-4ef4-9c33-7163eb3f290f)
+
 
 
 
