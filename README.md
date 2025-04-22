@@ -1,7 +1,7 @@
 # AI-Power-Python-Learning-system-using-Langchain
 This is the main app link: https://huggingface.co/spaces/Mansuba/AIpythonLearning2
-This app was build in huggingface space using Gradio framework.
-For running this app you need groq API key which you will get from here link:https://console.groq.com/keys
+This app was built in Hugging Face Space using the Gradio framework.
+To run this app, you need a Groq API key, which you can get from here:https://console.groq.com/keys
 
 
 ![image](https://github.com/user-attachments/assets/502da000-9aea-4128-b62f-a40911d86afd)
